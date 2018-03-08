@@ -1,0 +1,471 @@
+()<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商店</title>
+		<link type="text/css" rel="stylesheet" href="css/Wayne.css" />
+		<link rel="stylesheet" href="css/shandian.css" />
+	</head>
+	<body>
+	<div id = "header">
+			<div class="header-top">
+				<div class="wrap">
+					<div class="logo">
+						<a href="http://www.iliangcang.com/i/home/"></a>
+					</div>
+					<ul class="nav">
+						<li class="login-reg-btn">
+							<a id="loginBtn" href="javascript:">登录</a>
+							<a id="registerBtn" href="javascript:">注册</a>
+						</li>
+						<li class="line"></li>
+						<li class="shopcar">
+							<a class="cart-wrapper" href="javascript:">购物车</a>
+							<!--购物车下拉列表开始-->
+							<div class="cart">
+								<div class="shop">
+									<a href="javascript:">你的购物车暂时没有商品...</a>
+								</div>
+								<div class="cart_list">
+									<a class="add-shop" href="javascript:">快去抢购良仓商品吧！</a>
+								</div>
+							</div>
+							<!--购物车下拉列表结束-->
+						</li>
+						<li class="line"></li>
+						<li class="posr">
+							<a href=":javascript">消息</a>
+							<!--信息下拉列表开始-->
+							<div class="msg">
+								<a href="javascript:">
+									<span>动态<small>0</small></span>
+								</a>
+								<a href="javascript:">
+									<span>评论<small>0</small></span>
+								</a>
+								<a href="javascript:">
+									<span>私信<small>0</small></span>
+								</a>
+								<a href="javascript:">
+									<span>粉丝<small>0</small></span>
+								</a>
+								<a href="javascript:">
+									<span>喜欢<small>0</small></span>
+								</a>
+								<a class="last" href="javascript:">
+									<span>通知<small>0</small></span>
+								</a>
+							</div>
+							<!--信息下拉列表结束-->
+						</li>
+						<li class="line"></li>
+						<li class="add">
+							<a class="shade" href=":javascript">添加良品</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="subMenu">
+				<ul class="f1">
+					<li class="homepage">
+						<a href="javascript:">首页</a>
+					</li>
+					<li class="subLi">
+						<a href="javascript:">商店</a>
+						<div class="store">
+							
+						</div>
+					</li>
+					<li class="subLi">
+						<a href="javascript:">杂志</a>
+						<div class="magazine">
+							
+						</div>
+					</li>
+					<li class="subLi">
+						<a href="javascript:">分享</a>
+						<div class="share">
+							
+						</div>
+					</li>
+					<li class="superman">
+						<a href="javascript:">达人</a>
+					</li>
+				</ul>
+				<div class="search">
+					<div class="search-input">
+						<input type="text" id="glb_keyword" placeholder="search..."/>
+					</div>
+					<a href="javascript:"></a>
+				</div>
+			</div>
+		</div>
+		<div id="main">
+			<div class="wqq">
+				<a title="全场包邮(限中国大陆) 特殊商品除外"></a>
+			</div>
+			<div id="actionContainer">
+				<ul id="mycarousel">
+					<li class="v2">
+						<a href="shangdianfz.html">
+							<img src="img/1002.jpg" />
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="osm-bar">
+				<ul class="osm-cls" style="list-style: none;" >
+					<li>
+						<a href="" class="ctxt new">新品</a>
+						<span></span>
+					</li>
+					<li>
+						<a href="" class="ctxt">家居</a>
+						<span></span>
+					</li>
+					<li>
+						<a href="" class="ctxt">家具</a>
+						<span></span>
+					</li>
+					<li>
+						<a href="" class="ctxt">文具</a>
+						<span></span>
+					</li>
+					<li>
+						<a href="" class="ctxt">数码</a>
+						<span></span>
+					</li>
+					<li>
+						<a href="" class="ctxt">玩乐</a>
+						<span></span>
+					</li>
+					<li>
+						<a href="" class="ctxt">厨卫</a>
+						<span></span>
+					</li>
+					<li>
+						<a href="" class="ctxt">美食</a>
+						<span></span>
+					</li>
+					<li>
+						<a href="" class="ctxt">男装</a>
+						<span></span>
+					</li>
+					<li>
+						<a href="" class="ctxt">女装</a>
+						<span></span>
+					</li>
+				</ul>
+				<ul id="mod">
+					<li>
+						<a href="" class="ctxt">童装</a>
+						<span></span>
+					</li>
+					<li>
+						<a href="" class="ctxt">鞋包</a>
+						<span></span>
+					</li>
+					<li>
+						<a href="" class="ctxt">配饰</a>
+						<span></span>
+					</li>
+					<li>
+						<a href="" class="ctxt">美护</a>
+						<span></span>
+					</li>
+					<li>
+						<a href="" class="ctxt">户外</a>
+						<span></span>
+					</li>
+					<li>
+						<a href="" class="ctxt">植物</a>
+						<span></span>
+					</li>
+					<li>
+						<a href="" class="ctxt">图书</a>
+						<span></span>
+					</li>
+					<li>
+						<a href="" class="ctxt">艺术</a>
+						<span></span>
+					</li>
+					<li>
+						<a href="" class="ctxt">礼物</a>
+						<span></span>
+					</li>
+					<li>
+						<a href="" class="ctxt">推荐</a>
+						<span></span>
+					</li>
+				</ul>
+				<ul id="lol">
+					<li>
+						<a href="" class="ctxt">品牌</a>
+						<span></span>
+					</li>
+				</ul>
+				<div class="osm-price">价格筛选
+					<span class="arrow"></span>
+				</div>
+			</div>
+			<div id="nnh">
+			<div class="shopListCon styl_1">
+				<div class="item li_1">
+					<div class="imgCon">
+						<div class="optCon"></div>
+						<a href="">
+							<img src="img/259173.jpg"  alt="" />
+						</a>
+						<a href="" class="goodsInfo" style="width: 95%; height: 100%;" target="_blank" >
+                    	                        <!-- 如果是站内支付商品且没有达人推荐的话,获取品牌的信息 -->
+                    	<p class="recInfo">
+                    		<img src="img/931_1504683785.jpg" alt=""/> ZUS</p>
+                    	<p class="money">¥199.00</p>
+                        <p class="tle"> Kevlar Cable军工级数据线｜苹果安卓 高速充电</p>
+                        <p class="desc">
+							     坚固耐用，数据线采用了防弹级别的高强度材质，并在德国实验室完成了压力测试，可承受1.5万次的...
+						</p>
+	                    </a>
+					</div>
+				</div>
+				<div class="item li_2">
+            	<div class="imgCon">
+                	<div class="optCon"></div>
+            		<a href="" target="_blank">
+            			<img src="img/250817.jpg" style="width: 70%; height: 65%;" alt="【5折】德国红点奖 PISTACHIO系列 藏蓝条纹超轻旅行箱【顺丰包邮】" title="【5折】德国红点奖 PISTACHIO系列 藏蓝条纹超轻旅行箱【顺丰包邮】"></a>
+                    <a href="" class="goodsInfo" target="_blank">
+                    	                        <!-- 如果是站内支付商品且没有达人推荐的话,获取品牌的信息 -->
+                	<p class="recInfo"><img src="img/312.jpg">ITO</p>
+                	<p class="money">¥1098.00</p>
+                    <p class="tle">【5折】德国红点奖 PISTACHIO系列 藏蓝条纹超轻旅行箱【顺丰包邮】</p>
+                    <p class="desc">             
+					 PISTACHIO系列超轻旅行箱，从东方建筑生活美学出发，诚实...
+					</p>
+                    </a>
+                    <span style="display:block;position:absolute;bottom:140px;right:120px;z-index:10;width:30px;height:30px;">
+                    	<img src="img/4.jpg" style="width:30px;height:30px;">
+                    </span>
+                    </div>
+            </div>
+            <div class="item li_3" style="position: relative;left: 250px;bottom: 400px;">
+            	<div class="imgCon">
+                	<div class="optCon"></div>
+            		<a href="" target="_blank">
+            			<img src="img/250835.jpg" style="width: 70%; height: 65%;" alt=" 幽韵 香氛100ml" title=" 幽韵 香氛100ml"></a>
+                    <a href="" class="goodsInfo" target="_blank">
+                    	                        <!-- 如果是站内支付商品且没有达人推荐的话,获取品牌的信息 -->
+                    	<p class="recInfo"><img src="img/401.jpg">CHANDO</p>
+                    	<p class="money">¥750.00</p>
+                        <p class="tle"> 幽韵 香氛100ml</p>
+                        <p class="desc">                      
+						爽朗的柑橘香,悠悠的托出白玉兰的清雅迷人。香韵缭绕,...
+						</p>
+	                </a>
+	        </div>
+            </div>
+            <div class="item li_4" style="position: relative;left:515px;bottom: 540px;">
+            	<div class="imgCon">
+                	<div class="optCon"></div>
+            		<a href="" target="_blank">
+            			<img src="img/250877.jpg" style="width: 70%; height: 65%;" alt="彩色高水杯-蓝色渐变" title="彩色高水杯-蓝色渐变">
+            		</a>
+                    <a href="" class="goodsInfo" target="_blank">
+                    	                        <!-- 如果是站内支付商品且没有达人推荐的话,获取品牌的信息 -->
+                    	<p class="recInfo">
+                    		<img src="img/158.jpg">HAY</p>
+                    	<p class="money">¥99.00</p>
+                        <p class="tle">彩色高水杯-蓝色渐变</p>
+                        <p class="desc">                  
+				          HAY的经营领域介于建筑和时尚之间，我们的设计结合了建...
+						</p>
+                    </a>
+	            </div>
+            </div>
+            <div class="item li_5" style="position: relative;left:425px;bottom: 540px;">
+            	<div class="imgCon">
+                	<div class="optCon"></div>
+            		<a href="" target="_blank">
+            			<img src="img/251087.jpg" style="width: 70%; height: 65%;" alt="概念手机保护壳 蓝色" title="概念手机保护壳 蓝色"></a>
+                    <a href="" class="goodsInfo" target="_blank">
+                    	                        <!-- 如果是站内支付商品且没有达人推荐的话,获取品牌的信息 -->
+                    	<p class="recInfo">
+                    		<img src="img/407.jpg">VDC</p>
+                    	<p class="money">¥100.00</p>
+                        <p class="tle">概念手机保护壳 蓝色</p>
+                        <p class="desc">                        
+								 恣意涂抹的波浪，自然流露的色彩. 包裹在Wave chocolate...
+					    </p>
+                    </a>
+                </div>
+            </div>
+		</div>
+		</div>
+	</div>
+		<!---->
+		<div class="pagers" style="position: relative; left: 300px;">
+				<a href="javascript:" target="_blank" class="osm-more"></a>
+			</div>
+	</div>
+		<!--服务-->
+		<div id="service">
+			<a href="javascript:">
+				<p class="hand"></p>
+			</a>
+			<div class="slogen">
+				<dl class="fore1">
+					<dt></dt>
+					<dd>
+						<p class="chinesetop">全球精品</p>
+						<p class="english">Global Selections</p>
+					</dd>
+				</dl>
+				<dl class="fore2">
+					<dt></dt>
+					<dd>
+						<p class="chinesetop">正品保证</p>
+						<p class="english">Authenticity Guaranteed</p>
+					</dd>
+				</dl>
+				<dl class="fore3">
+					<dt></dt>
+					<dd>
+		            	<p class="chinesetop">全场包邮</p>
+		                <p class="english">Free Delivery</p>
+		            </dd>
+				</dl>
+				<dl class="fore4">
+					<dt></dt>
+					<dd>
+		            	<p class="chinesetop phonehm"></p>
+		                <p class="english">工作日 09:00-18:00</p>
+		            </dd>
+				</dl>
+			</div>
+		</div>
+
+		<!--底部footer-->
+		<div id="footer">
+			<div class="wrap1">
+				<div class="footLeft f1">
+					<a href="http://www.iliangcang.com/i/our/appdown" target="_blank">
+						<div class="download">
+							<p class="iPhone">
+								<span class="numLeFont">iPhone Android</span>
+							</p>
+							<p class="client-down">客户端下载</p>
+							<div class="download-code">
+						          <dl class="iPhone">
+						            <dt></dt>
+						            <dd>下载iPhone版</dd>
+						          </dl>
+						          <dl class="android">
+						            <dt></dt>
+						            <dd>下载Android版</dd>
+						          </dl>
+					        </div>
+						</div>
+					</a>
+					<div class="friendly">
+				        <p class="toplink"> 
+				        	<a href="javascript:;" target="_blank" class="first">关于良仓</a>
+				        	<a href="javascript:;" target="_blank" rel="nofollow">服务协议</a>
+				        	<a href="javascript:;" target="_blank" rel="nofollow">隐私保护政策</a>
+				        	<a href="javascript:;" target="_blank" rel="nofollow">使用指南</a>
+				        	<a href="javascript:;" target="_blank" rel="nofollow">联系我们</a>
+				        	<a href="http://www.lagou.com/gongsi/2236.html" target="_blank" rel="nofollow">加入我们</a>
+				        	<a href="javascript:;" target="_blank" rel="nofollow">友情链接</a>
+				        	<a href="javascript:;" onclick="showSendMsgWin('良仓',1640);" class="contactUs">私信良仓</a>
+				        </p>
+				        <p>
+				        	<span class="numLeFont">©</span>&nbsp;2013-2015 北京良仓文化传播有限公司版权所有&nbsp;京<span class="numLeFont">ICP</span>备<span class="numLeFont">13010677</span>号<span class="numLeFont">-1</span>&nbsp;京公网安备<span class="numLeFont">11010502025627</span>
+				        </p>
+				        <p>&nbsp;&nbsp;公司名称：北京良仓文化传播有限公司&nbsp;&nbsp;电话：010-58263516</p>
+				        <p>&nbsp;&nbsp;公司地址：北京朝阳区百子湾路32号6号楼1层60号.</p>
+				        <p>&nbsp;&nbsp;社会信用统一代码：91110105059231575L&nbsp;&nbsp;食品许可证：JY11105160159557&nbsp;&nbsp;</p>
+				        <p>&nbsp;&nbsp;图书证名称：中华人民共和国出版物经营许可证&nbsp;&nbsp;图书证编号：新出发京零 字第 朝 150051 号&nbsp;&nbsp;</p>
+				    </div>
+				</div>
+				<div class="footRight">
+				    <div class="commun">
+				      	<ul>
+				      		<li>
+				      			<a class="douban" href="http://site.douban.com/208766/" target="_blank"></a>
+				      		</li>
+				      		<li>
+				      			<a class="sina" href="http://weibo.com/iliangcang" target="_blank"></a>
+				      		</li>
+				      		<li>
+				      			<a class="wechat weixin" href="javascript:void(0)">
+				        			<div class="wechat-code">
+				        				<s></s>
+				        			</div>
+				       			</a>
+				      		</li>
+				      	</ul>
+				    </div>
+				</div>
+			</div>
+		</div>
+		
+		<!--回到顶部-->
+		<div class="backToTopV2">
+			<a href="javascript:;" class="top" style="opacity: 1;"></a>
+		</div>
+		
+		<!--联系客服-->
+		<div id="em-widegetPopBar">
+			<a href="javascript:;" class="em-wideget-pop-bar">联系客服</a>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/jquery-3.2.1.js" ></script>
+	<script>
+	$(function(){
+	$('.osm-bar li').hover(function(){
+		$('span',this).stop().css('height','2px');
+		$('span',this).animate({
+			left:'0',
+			width:'60px',
+			right:'0'
+		},500);
+	},function(){
+		$('span',this).stop().animate({
+			left:'50%',
+			width:'0'
+		  },200);
+	  });
+  });
+  
+  //请求json数据拼接字符串，并在URL传参数id跳转
+var url = "http://h6.duchengjiu.top/shop/api_goods.php?cat_id=45&page=1&pagesize=1";
+$.get(url, {"page":1},function(obj) {
+	console.log(obj);
+	var arr = obj.data;
+	var h = "";
+	var n = "li_1";
+
+	$(".shopListCon").html(h);
+	for (var i = 0; i < arr.length; i++)
+	{
+		if(i%3==0){
+			n = "li_1";
+		}
+		else{
+			n="";
+		}
+		var item = arr[i]
+		h += '<div class="item '+n+'"><div class="imgCon"><div class="optCon"></div><a href=""><img src="'
+		h += item.goods_thumb;
+		h += '"  alt="" /></a><a href="" class="goodsInfo" style="width: 95%; height: 100%;" target="_blank" ><p class="recInfo"><img src="img/931_1504683785.jpg" alt=""/> ZUS</p><p class="money">¥';
+		h += item.price;
+		h += '</p><p class="tle"> Kevlar Cable军工级数据线｜苹果安卓 高速充电';
+		h += item.goods_name;
+		h += '</p><p class="desc">坚固耐用，数据线采用了防弹级别的高强度材质，并在德国实验室完成了压力测试，可承受1.5万次的...</p></a></div></div>';
+		h += '<div class="item '+n+'" style="position: relative;left:500px; top:-520px"><div class="imgCon"><div class="optCon"></div><a href="" target="_blank"><img src="'
+		h += item.goods_thumb;
+		h += '" style="width: 70%; height: 65%;" alt="【5折】德国红点奖 PISTACHIO系列 藏蓝条纹超轻旅行箱【顺丰包邮】" title="【5折】德国红点奖 PISTACHIO系列 藏蓝条纹超轻旅行箱【顺丰包邮】"></a><a href="" class="goodsInfo" target="_blank"><p class="recInfo"><img src="img/312.jpg">ITO</p><p class="money">¥'
+	}
+
+	$(".shopListCon").html(h);
+})
+	</script>
+</html>

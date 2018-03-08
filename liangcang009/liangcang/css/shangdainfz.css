@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.topic_cont {
+	width: 1000px;
+	height: 11800px;
+	margin: 0 auto;
+	padding-top: 40px;
+	position: relative;
+}
+.topic_left {
+    width: 650px;
+    height: 11700px;
+    padding-right: 42px;
+    border-right: #ededed 1px solid;
+}
+p img {
+	width: 100%;
+}
+.tcon-car {
+	position: absolute;
+    z-index: 1000;
+    width: 6.875%;
+    height: 38px;
+    left: 12px;
+    top: 14px;
+    display: block;
+    cursor: pointer;
+}
+.topic_right {
+	position: fixed;
+	margin-left: 730px;
+	width: 272px;
+	overflow: hidden;
+}
+.navtit {
+	margin-bottom: 9px;
+	height: 14px;
+    line-height: 14px;
+    color: #333;
+    font-size: 12px;
+    background: url(../img/topic_down.jpg)right 5px no-repeat;
+}
+.topic_right ul {
+	list-style: none;
+	padding-top: 14px;
+    margin-bottom: 40px;
+    border-top: #ededed 1px solid;
+    width: 292px;
+}
+.topic_right li {
+	float: left;
+    width: 126px;
+    margin-right: 20px;
+}
+.imgslt {
+	background: url(../img/1172.jpg)no-repeat;
+	display: block;
+    width: 126px;
+    height: 76px;
+    background-size: 100% 100%;
+    transition: all 0.15s linear;
+}
+.topic_tits {
+	width: 100%;
+    padding-top: 10px;
+    height: 14px;
+    line-height: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 12px;
+    text-align: center;
+    text-overflow: ellipsis;
+}
+.topic_tits a {
+	color: #333;
+	text-decoration: none;
+}

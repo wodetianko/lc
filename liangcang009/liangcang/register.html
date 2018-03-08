@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>用户注册.良仓－生活美学指南</title>
+		<link rel="stylesheet" type="text/css" href="css/register.css">
+	</head>
+
+	<body class="log_regBody">
+		<div id="main001">
+			<form id="uregForm" method="post" name="uregForm" autocomplete="off">
+				<table class="regTable">
+					<tr class="zclogo">
+						<td>
+							<a href="index.html" class="lcImg">
+								<img src="img/logo_icon.png"/>
+							</a>
+						</td>
+					</tr>
+					<tr class="zctongyong phoneNum">
+						<th align="left" class="regLabel">手机号</th>
+						<td>
+							<input type="text" class="regInpt innerPro" id="mobile_phone" value="请输入手机号码">
+						</td>
+					</tr>
+					<tr class="zctongyong">
+						<th align="left" class="regLabel">验证码</th>
+						<td>
+							<input type="text" class="innerPro txtVerification" id="Txtidcode" value="输入验证码">
+							
+						</td>
+						<td>
+							<span id="idcode"></span>
+						</td>
+						<td>
+							<a href="javascript:" class="nextVert">看不清，换一张</a>
+						</td>
+					</tr>
+					<tr class="zctongyong">
+						<th align="left" class="regLabel">创建密码</th>
+						<td>
+							<input type="text" class="regInpt innerPro" id="pwd" value="6-20位字符组成，区分大小写">
+						</td>
+						<td>
+							<div id="pwdInfo">
+								<div id="pwdStrong"></div>
+								<div id="strongLevel">
+									<span class="passLeft">弱</span>
+									<span class="passMiddle">中</span>
+									<span class="passRight">强</span>
+								</div>
+							</div>
+						</td>
+					</tr>
+					<tr class="zctongyong">
+						<th align="left" class="regLabel">密码确认</th>
+						<td>
+							<input type="text" class="regInpt innerPro" id="repwd" value="确认密码">
+						</td>
+					</tr>
+					<tr class="zctongyong">
+						<th align="left" class="regLabel"></th>
+						<td>
+							<input type="checkbox" checked="checked" id="ourtreaty" class="vertPos"><label>同意</label>
+							<a href="http://www.iliangcang.com/i/our/service" style="color:#0c79cc;" class="vertPos" target="_blank">良仓注册条款</a>
+						</td>
+					</tr>
+					<tr class="zctongyong">
+						<th align="left" class="regLabel"></th>
+						<td>
+							<input id="regBtn" type="button" value="立即注册"  align="absmiddle">
+						</td>
+					</tr>
+					<tr class="zctongyong" id="linkLogin">
+						<th align="left" class="regLabel"></th>
+						<td align="left">
+				            <a href="javascript:;" class="quikLoginIcon icon_QQ_36" title="QQ"></a>
+				            <a href="javascript:;" class="quikLoginIcon icon_sina_36" title="新浪微博"></a>
+				            <a href="javascript:;" class="quikLoginIcon icon_douban_36" title="豆瓣"></a>
+				            <a href="javascript:;" class="quikLoginIcon icon_qqwb_36" title="腾讯微博"></a>
+			            </td>
+			            <td align="right">
+			              <a href="login_1.html" class="regLC regPos" id="regLC">登录良仓</a>
+			            </td>
+					</tr>
+					
+				
+				</table>
+			</form>
+			<a class="bgInfo" href="http://www.iliangcang.com/i/brand/own/?id=6">
+		      <div class="bgName">SELETTI</div>
+		      <img src="img/6.jpg" />
+	    	</a>
+		</div>
+		<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+		<script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
+		<script type="text/javascript" src="js/jquery.idcode.js"></script>
+		<script src="js/jquery.cookie.js"></script>
+		<script type="text/javascript" src="js/register.js"></script>
+	</body>
+
+</html>

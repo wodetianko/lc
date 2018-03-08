@@ -1,0 +1,270 @@
+/**************************注册页样式开始***************************/
+/**************************注册页样式开始***************************/
+/**************************注册页样式开始***************************/
+.log_regBody {
+    /* background: #4F4A4A; */
+    width: 100%;
+    height: 100%;
+    background: #989898;
+}
+#main001 {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 110px;
+}
+#uregForm {
+    width: 100%;
+    color: #333;
+}
+#uregForm .regTable {
+    width: 565px;
+    border-collapse: separate;
+    border-spacing: 10px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    position: relative;
+    margin-top: 40px;
+}
+#uregForm .regTable>tr{
+	width:565px;
+}
+#uregForm .regTable .zclogo{
+	height:160px;
+}
+#uregForm .regLabel{
+	width:76px;height:50px;
+    font-size: 14px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #ffffff;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    margin-right: 10px;
+    float: left;
+
+    
+}
+.lcImg{
+	width:226px;height:106px;
+	margin-left: 130px;
+	float: left;
+}
+.zctongyong{
+	height:50px;
+	margin: 0 0 10px;
+}
+.zctongyong td{
+	float:left;
+}
+.zctongyong input{
+	width:280px;height:50px;
+	font-family: 微软雅黑;
+	font-weight: bold;
+    color: rgb(255, 255, 255);
+    opacity: 0.99;
+	background: #cbcbcb;
+	padding-left: 20px;
+	border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+	float: left;
+}
+.zctongyong td #idcode{
+	width:64px;height:28px;
+	margin-top: 11px;
+	margin-left: 24px;
+	/*border: 1px solid #000000;*/
+	float:left;
+}
+#Txtidcode{
+	width:225px;
+}
+.zctongyong td a{
+	font-size: 12px;
+    color: #ffffff;
+    line-height: 50px;
+    margin-left: 8px;
+}
+#pwdInfo {
+    width: 127px;
+    height: 28px;
+	position: relative;
+
+}
+#pwdStrong{
+	width: 127px;
+    height: 12px;
+    background: url(../img/pwd_note_bg1.png) no-repeat;
+    background-position: 0 0;
+    margin-left: 20px;
+    margin-top: 10px;   
+}
+#strongLevel{
+	width: 127px;
+    height: 16px;
+}
+#strongLevel span{
+	font-size: 12px;
+    display: inline-block;
+    width: 41px;
+    text-align: center;
+}
+.passLeft{
+	position: absolute;
+	left:5px;
+	top:16px;
+}
+.passMiddle{
+	position: absolute;
+	left:60px;
+	top:16px;
+}
+.passRight{
+	position: absolute;
+	left:120px;
+	top:16px;
+}
+#ourtreaty{
+	width:13px;height:13px;
+	margin-top: 20px;
+	float:left;
+}
+.zctongyong label{
+	font-size:12px;
+	color:#fff;
+	padding-left: 6px;
+	margin-top: 17px;
+	float:left;
+}
+.vertPos{
+	margin-left: 0;
+	float:left;
+	
+}
+#regBtn{
+	cursor: pointer;
+	width:300px;
+	font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+	background: #25292e;
+	padding-left: 0;
+}
+#linkLogin{
+	/*margin-top: 30px;*/
+	border: 1px solid #0C6EBA;
+	/*float: left;*/
+	position: relative;
+}
+.quikLoginIcon{
+	width:24px;height:22px;
+	margin: 0 4px;
+	margin-top: 30px;
+	border-radius: 5px;
+	float:left;
+/*	border: 1px solid #0C6EBA;*/
+}
+.quikLoginIcon:hover{
+	background-color: rgba(0,0,0,0.5);
+}
+.icon_QQ_36{
+	background: url(../img/icon.png) no-repeat;
+	background-position: -56px -469px;
+}
+.icon_sina_36{
+	background: url(../img/icon.png) no-repeat;
+	background-position: -87px -469px;
+}
+.icon_douban_36{
+	background: url(../img/icon.png) no-repeat;
+	background-position: -118px -467px;
+}
+.icon_qqwb_36{
+	background: url(../img/icon.png) no-repeat;
+	background-position: -26px -469px;
+}
+#regLC{
+	font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #ffffff;
+    position:relative;
+    left:94px;
+    top:12px;
+}
+.bgName {
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #ffffff;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    margin-right: 20px;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+.bgInfo{
+	position: fixed;
+	right: 30px;
+    bottom: 30px;
+}
+.bgInfo img{
+	width:40px;height:40px;
+}
+
+/*验证码样式*/
+#ehong-code-input{
+	width:42px;
+	letter-spacing:2px;
+	margin:0px 8px 0px 0px;
+}
+.ehong-idcode-val{
+	position:relative;
+	padding:1px 4px 1px 4px;
+	top:0px;
+	*top:-3px;
+	letter-spacing:4px;
+	display:inline;
+	cursor:pointer;
+	font-size:16px;
+	font-family:"Courier New", Courier, monospace;
+	text-decoration:none;
+	font-weight:bold;
+}
+.ehong-idcode-val0{
+	border:solid 1px #A4CDED;	
+	background-color:#ECFAFB;
+}
+
+.ehong-idcode-val1{
+	border:solid 1px #A4CDED;	
+	background-color:#FCEFCF;
+}
+.ehong-idcode-val2{
+	border:solid 1px #6C9;	
+	background-color:#D0F0DF;
+}
+.ehong-idcode-val3{
+	border:solid 1px #6C9;	
+	background-color:#DCDDD8;
+}
+.ehong-idcode-val4{
+	border:solid 1px #6C9;	
+	background-color:#F1DEFF;
+}
+.ehong-idcode-val5{
+	border:solid 1px #6C9;	
+	background-color:#ACE1F1;
+}
+.ehong-code-val-tip{
+	font-size:12px;
+	color:#1098EC;
+	top:0px;
+	*top:-3px;	
+	position:relative;	
+	margin:0px 0px 0px 4px;
+	cursor:pointer;	
+}

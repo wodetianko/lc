@@ -1,0 +1,201 @@
+*{margin: 0;padding: 0;}
+li{list-style:none;}
+a{text-decoration:none;}
+img{border:none;}
+
+.log_regBody {
+    /* background: #4F4A4A; */
+    width: 100%;
+    height: 100%;
+    background: #989898;
+}
+#main001 {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 110px;
+}
+#uregForm {
+    width: 100%;
+    color: #333;
+}
+#uregForm .regTable {
+    width: 310px;
+    position: relative;
+    margin: 0 auto;
+}
+#uregForm .regTable>tr{
+	width:565px;
+}
+#uregForm .regTable .zclogo{
+	height:160px;
+}
+
+.lcImg{
+	width:226px;height:106px;
+	margin-left: 40px;
+}
+
+#userLogo,#pswLogo {
+    color: #ffffff;
+    display: inline-block;
+    float: left;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 50px;
+    height: 50px;
+    opacity: 0.99;
+    width: 200px;
+    padding: 0 0 0 62px;
+    margin: 0;
+    text-align: left;
+    background: url(../img/usericon.png) no-repeat;
+	background-position: 10px 10px;
+}
+#pswLogo{
+	background: url(../img/passicon.png) no-repeat;
+	background-position: 10px 10px;
+}
+.zctongyong{
+	width:300px;
+	height:50px;
+	margin: 0 0 10px;
+	float:left;
+}
+
+.zctongyong td{
+	width:300px;
+}
+.zctongyong td .loginUser,.loginPsw{
+	width:300px;height:50px;
+	font-family: 微软雅黑;
+	font-weight: bold;
+    color: rgb(255, 255, 255);
+    opacity: 0.99;
+	background: #cbcbcb;
+	border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+	float: left;
+	position: relative;
+}
+.zctongyong td .loginUser input,#psw{
+	float: left;
+    padding-left: 10px;
+    width: 224px;
+    height: 30px;
+    line-height: 30px;
+    border: none;
+    border-left: 1px solid #ffffff;
+    background: none;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    color: #ffffff;
+    top: 10px;
+    left: 50px;
+    resize: none;
+    outline: none;
+    position: absolute;
+}
+#autoLogin,#autoLogin td{
+	height:20px;
+}
+#autoLogin td a,#autoLogin td input,#autoLogin td label{
+	height:20px;
+	line-height: 20px;
+	margin: 0;
+}
+#ourtreaty{
+	width:13px;height:13px;
+	margin-top: 20px;
+	float:left;
+}
+.zctongyong label{
+	font-size:12px;
+	color:#fff;
+	padding-left: 6px;
+	margin-top: 17px;
+	float:left;
+}
+.vertPos{
+	margin-left: 0;
+	float:right;
+	color:#fff;
+	font:12px/50px "微软雅黑";
+	
+}
+#regBtn{
+	cursor: pointer;
+	width:300px;
+	height:50px;
+	font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+	background: #25292e;
+	padding-left: 0;
+	resize: none;
+    outline: none;
+}
+#linkLogin{
+	/*margin-top: 30px;*/
+	/*border: 1px solid #0C6EBA;*/
+	/*float: left;*/
+	position: relative;
+}
+.quikLoginIcon{
+	width:24px;height:22px;
+	margin: 0 4px;
+	margin-top: 30px;
+	border-radius: 5px;
+	float:left;
+/*	border: 1px solid #0C6EBA;*/
+}
+.quikLoginIcon:hover{
+	background-color: rgba(0,0,0,0.5);
+}
+.icon_QQ_36{
+	background: url(../img/icon.png) no-repeat;
+	background-position: -56px -469px;
+}
+.icon_sina_36{
+	background: url(../img/icon.png) no-repeat;
+	background-position: -87px -469px;
+}
+.icon_douban_36{
+	background: url(../img/icon.png) no-repeat;
+	background-position: -118px -467px;
+}
+.icon_qqwb_36{
+	background: url(../img/icon.png) no-repeat;
+	background-position: -26px -469px;
+}
+#loginLC{
+	font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #ffffff;
+	position: relative;
+	top:10px;
+}
+.bgName {
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #ffffff;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    margin-right: 20px;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+.bgInfo{
+	position: fixed;
+	right: 30px;
+    bottom: 30px;
+}
+.bgInfo img{
+	width:40px;height:40px;
+}
